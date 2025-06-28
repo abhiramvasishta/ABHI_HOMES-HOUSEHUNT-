@@ -4,6 +4,8 @@ import axios from "axios";
 import { motion } from "framer-motion";
 import { FiLogOut, FiHome, FiCamera } from "react-icons/fi";
 
+const apiBaseUrl = import.meta.env.VITE_API_URL;
+
 const Dashboard = () => {
   const navigate = useNavigate();
   const fileInputRef = useRef();
@@ -26,15 +28,13 @@ const Dashboard = () => {
 
   const handleLogout = async () => {
     try {
-      await axios.post("https://easyhomes.onrender.com/user/logout", {}, { withCredentials: true });
-      localStorage.removeItem("user");
-      localStorage.removeItem("userId");
-      localStorage.removeItem("userRole");
-      localStorage.removeItem("avatar");
-      setUser(null);
-      navigate("/login");
+      await axios.post(`${apiBaseUrl}/user/logout`, {}, { withCredentials: true });
     } catch (error) {
-      console.error("Logout failed:", error);
+      console.warn("Logout failed or already logged out:", error);
+    } finally {
+      localStorage.clear();
+      setUser(null);
+      navigate("/login", { replace: true });
     }
   };
 
@@ -45,7 +45,6 @@ const Dashboard = () => {
     const reader = new FileReader();
     reader.onloadend = () => {
       const newAvatar = reader.result;
-
       const updatedUser = { ...user, avatar: newAvatar };
       setUser(updatedUser);
       localStorage.setItem("user", JSON.stringify(updatedUser));
@@ -74,7 +73,6 @@ const Dashboard = () => {
       >
         {user ? (
           <>
-            {/* Avatar + Change Button */}
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="relative w-24 h-24 rounded-full overflow-hidden mx-auto border-4 border-white shadow-lg mb-4"

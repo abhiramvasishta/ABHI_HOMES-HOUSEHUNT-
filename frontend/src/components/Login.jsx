@@ -22,7 +22,7 @@ const Login = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Welcome to EasyHomes
+        Welcome to AbhiHomes
       </motion.h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 z-10">
@@ -39,7 +39,7 @@ const Login = () => {
             Home Seeker
           </h2>
           <p className="text-gray-600 mb-6">
-            Explore and search rental homes on EasyHomes. Find your perfect stay!
+            Explore and search rental homes on AbhiHomes. Find your perfect stay!
           </p>
           <motion.button
             className="bg-gradient-to-r from-blue-500 to-blue-700 text-white font-bold py-2 px-6 rounded-full shadow-lg"
@@ -63,7 +63,7 @@ const Login = () => {
             Renter / Owner
           </h2>
           <p className="text-gray-600 mb-6">
-            List your property and manage rental details with EasyHomes.
+            List your property and manage rental details with AbhiHomes.
           </p>
           <motion.button
             className="bg-gradient-to-r from-green-400 to-green-600 text-white font-bold py-2 px-6 rounded-full shadow-lg"

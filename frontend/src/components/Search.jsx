@@ -258,9 +258,9 @@ const Search = () => {
 
                 <div className="hidden md:block mb-6">
                   <img
-                    src="https://api.qrserver.com/v1/create-qr-code/?data=upi%3A%2F%2Fpay%3Fpa%3D8919348949%40upi%26pn%3DSubbu%20Choda%26am%3D50%26cu%3DINR%26tn%3Dhome%20payment&size=300x300&color=000000&bgcolor=E0F2FE"
-                    alt="UPI QR for Easy Homes"
-                    className="mx-auto rounded-xl shadow-md border-4 border-blue-100"
+                    src="/dist/upi_qr.png"
+                    alt="UPI QR for Abhi Homes"
+                    className="mx-auto rounded-xl shadow-lg border-4 border-blue-200 w-64 h-64 object-contain"
                   />
                 </div>
                 <div className="md:hidden mt-4">

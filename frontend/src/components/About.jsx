@@ -6,14 +6,14 @@ const About = () => {
       <div className="max-w-screen-xl mx-auto container flex justify-center items-center">
         <section className="text-white body-font py-12 px-5">
           <div className="container mx-auto text-center mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white underline">About Easy Homes</h1>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white underline">About AbhiHomes</h1>
             <p className="lg:w-3/4 mx-auto leading-relaxed text-lg">
-              Easy Homes is an innovative rental platform designed to simplify the process of connecting renters with homeowners. 
+              Abhi Homes is an innovative rental platform designed to simplify the process of connecting renters with homeowners. 
               Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), the platform offers a seamless experience 
               for listing, searching, and securing rental properties. Homeowners can easily list their properties with images, 
               descriptions, and pricing, while renters can explore a wide range of available homes using advanced search and filtering options.
               <br /><br />
-              To ensure security and transparency, Easy Homes features user authentication, secure payment processing for unlocking homeowner contact details, 
+              To ensure security and transparency, Abhi Homes features user authentication, secure payment processing for unlocking homeowner contact details, 
               and an intuitive dashboard for homeowners to track their property performance. With real-time updates, secure transactions, and a user-friendly interface, 
               Easy Homes makes renting hassle-free and efficient for both parties.
             </p>

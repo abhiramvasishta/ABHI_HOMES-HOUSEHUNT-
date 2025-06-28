@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     if ("serviceWorker" in navigator && "PushManager" in window) {
       navigator.serviceWorker
@@ -31,6 +34,15 @@ const Home = () => {
       vibrate: [200, 100, 200],
       requireInteraction: false,
     });
+  };
+
+  const handleExploreClick = () => {
+    const user = localStorage.getItem("user");
+    if (user) {
+      navigate("/search");
+    } else {
+      navigate("/login");
+    }
   };
 
   return (
@@ -80,12 +92,12 @@ const Home = () => {
           transition={{ delay: 1.2 }}
           className="mt-12"
         >
-          <a
-            href="/search"
+          <button
+            onClick={handleExploreClick}
             className="px-7 py-3 rounded-full text-lg font-semibold text-white border border-white/40 bg-white/10 backdrop-blur-md hover:bg-white/20 transition duration-300 shadow-md"
           >
             🔍 Explore Homes
-          </a>
+          </button>
         </motion.div>
       </div>
 
