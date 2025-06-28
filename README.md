@@ -108,7 +108,7 @@ GOOGLE_CLIENT_ID=your_google_client_id
 Seed initial data (optional):
 
 ```bash
-node seedData.js
+node seedHomes.js
 ```
 
 Start backend server:
