@@ -31,16 +31,16 @@
 ## 📸 Project Screenshots
 
 ### 🏠 Home Page
-![Home](project_images/homepage.png)
+![Home](project_document/homepage.png)
 
 ### 🔍 Search Page
-![Search](project_images/search.png)
+![Search](project_document/search.png)
 
 ### 📝 Renter Form Page
-![Renter](project_images/renter-form.png)
+![Renter](project_document/renter-form.png)
 
 ### 📊 Dashboard Page
-![Dashboard](project_images/dashboard.png)
+![Dashboard](project_document/dashboard.png)
 
 ---
 
