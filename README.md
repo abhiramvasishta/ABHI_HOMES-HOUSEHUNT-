@@ -39,8 +39,12 @@
 ### 📝 Renter Form Page
 ![Renter](project_document/renter-form.png)
 
+### 📊 Payment Page
+![Dashboard](project_document/payment-page.png)
+
 ### 📊 Dashboard Page
 ![Dashboard](project_document/dashboard.png)
+
 
 ---
 
