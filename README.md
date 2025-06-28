@@ -26,6 +26,24 @@
 
 ---
 
+---
+
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+![Home](project_images/homepage.png)
+
+### 🔍 Search Page
+![Search](project_images/search.png)
+
+### 📝 Renter Form Page
+![Renter](project_images/renter-form.png)
+
+### 📊 Dashboard Page
+![Dashboard](project_images/dashboard.png)
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -122,24 +140,6 @@ To build for production:
 ```bash
 npm run build
 ```
-
----
-
-## 📸 Project Screenshots
-
-### 🏠 Home Page
-![Home](project_images/homepage.png)
-
-### 🔍 Search Page
-![Search](project_images/search.png)
-
-### 📝 Renter Form Page
-![Renter](project_images/renter-form.png)
-
-### 📊 Dashboard Page
-![Dashboard](project_images/dashboard.png)
-
----
 
 
 ## 👨‍💻 Author
