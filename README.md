@@ -27,6 +27,10 @@
 ---
 
 ---
+## 📸 Project Video
+
+https://github.com/user-attachments/assets/1c347839-120f-4af7-ae42-e8aecc185e3a
+
 
 ## 📸 Project Screenshots
 
