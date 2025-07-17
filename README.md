@@ -28,7 +28,7 @@
 
 ---
 ### 📸 Project Demo
-![Dashboard](Video_demo/househunt_demo.mp4)
+![Dashboard](Video_demo/househunt_video.mp4)
 
 ## 📸 Project Screenshots
 
