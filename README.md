@@ -35,19 +35,19 @@ https://github.com/user-attachments/assets/1c347839-120f-4af7-ae42-e8aecc185e3a
 ## 📸 Project Screenshots
 
 ### 🏠 Home Page
-![Home](project_document/homepage.png)
+![Home](project_images/homepage.png)
 
 ### 🔍 Search Page
-![Search](project_document/search.png)
+![Search](project_images/search.png)
 
 ### 📝 Renter Form Page
-![Renter](project_document/renter-form.png)
+![Renter](project_images/renter-form.png)
 
 ### 📊 Payment Page
-![Dashboard](project_document/payment-page.png)
+![Dashboard](project_images/payment-page.png)
 
 ### 📊 Dashboard Page
-![Dashboard](project_document/dashboard.png)
+![Dashboard](project_images/dashboard.png)
 
 ---
 
